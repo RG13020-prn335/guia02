@@ -1,0 +1,11 @@
+versio:"2"
+services:
+postgesql:
+buil:
+contexr:
+args:
+user: mortal2017
+password: prn335
+database: post
+
+ports:"5432:5432"

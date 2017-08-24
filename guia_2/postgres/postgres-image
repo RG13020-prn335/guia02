@@ -1,0 +1,7 @@
+FROM postgres:9.6.3-alpine​ ​
+EVN POSTGRES USER=´mortal2017
+EVN POSTGRES PASWORD=´PRN335´
+EVN POSTGRES_DB=´post´
+EXPOSE 5432
+
+CMD[psql -u postgres]
